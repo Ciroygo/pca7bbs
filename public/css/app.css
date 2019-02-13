@@ -16176,31 +16176,31 @@ body {
   padding: 3px;
 }
 
-.topics-index-page .topic-list .nav > li > a {
+.topics-index-page .categories-show-page .topic-list .nav > li > a {
   position: relative;
   display: block;
   padding: 5px 14px;
   font-size: 0.9em;
 }
 
-.topics-index-page a {
+.topics-index-page .categories-show-page a {
   color: #444444;
 }
 
-.topics-index-page .meta {
+.topics-index-page .categories-show-page .meta {
   font-size: 0.9em;
   color: #b3b3b3;
 }
 
-.topics-index-page .meta a {
+.topics-index-page .categories-show-page .meta a {
   color: #b3b3b3;
 }
 
-.topics-index-page .badge {
+.topics-index-page .categories-show-page .badge {
   background-color: #d8d8d8;
 }
 
-.topics-index-page hr {
+.topics-index-page .categories-show-page hr {
   margin-top: 12px;
   margin-bottom: 12px;
   border: 0;
