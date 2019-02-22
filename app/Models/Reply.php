@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\Topic;
+use App\Models\User;
 
 class Reply extends Model
 {
