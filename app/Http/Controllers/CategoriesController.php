@@ -17,4 +17,3 @@ class CategoriesController extends Controller
         return view('topics.index', compact('topics', 'category'));
     }
 }
-å
