@@ -37,5 +37,17 @@ class UsersTableSeeder extends Seeder
         $user->email = '11436549@qq.com';
         $user->avatar = 'http://bbs.pca7.test/uploads/images/avatar/201902/12/1_1549949298_0zlsboSXYK.jpg';
         $user->save();
+
+        $user->assignRole('Founder');
+
+        $user = User::find(2);
+        $user->assignRole('Maintainer');
+
+
+        $user = User::find(3);
+        $user->assignRole('Maintainer');
+
+        $user = User::find(4);
+        $user->givePermissionTo('manage_contents');
     }
 }
