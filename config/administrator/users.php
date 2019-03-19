@@ -4,9 +4,9 @@ use App\Models\User;
 
 return [
 
-    'title' => '用户',
+    'title' => '用户title',
 
-    'single' => '用户',
+    'single' => '用户single',
 
     'model' => User::class,
 
@@ -71,7 +71,7 @@ return [
             'type' => 'image',
 
             // 图片上传必须设置图片存放路径
-            'location' => public_path() . '/uploads/images/avatars/',
+            'location' => public_path() . '/uploads/images/avatar/',
         ],
         'roles' => [
             'title'      => '用户角色',
