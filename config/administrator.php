@@ -61,6 +61,8 @@ return array(
     'menu' => [
         '用户ci权限' => [
             'users',
+            'roles',
+            'permissions'
         ],
     ],
 
