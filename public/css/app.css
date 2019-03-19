@@ -16628,31 +16628,31 @@ body {
   padding: 3px;
 }
 
-.topics-index-page .categories-show-page .topic-list .nav > li > a {
+.topics-index-page .categories-show-page .root-page .topic-list .nav > li > a {
   position: relative;
   display: block;
   padding: 5px 14px;
   font-size: 0.9em;
 }
 
-.topics-index-page .categories-show-page a {
+.topics-index-page .categories-show-page .root-page a {
   color: #444444;
 }
 
-.topics-index-page .categories-show-page .meta {
+.topics-index-page .categories-show-page .root-page .meta {
   font-size: 0.9em;
   color: #b3b3b3;
 }
 
-.topics-index-page .categories-show-page .meta a {
+.topics-index-page .categories-show-page .root-page .meta a {
   color: #b3b3b3;
 }
 
-.topics-index-page .categories-show-page .badge {
+.topics-index-page .categories-show-page .root-page .badge {
   background-color: #d8d8d8;
 }
 
-.topics-index-page .categories-show-page hr {
+.topics-index-page .categories-show-page .root-page hr {
   margin-top: 12px;
   margin-bottom: 12px;
   border: 0;
