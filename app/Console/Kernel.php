@@ -28,6 +28,8 @@ class Kernel extends ConsoleKernel
         //          ->hourly();
 
         $schedule->command('pca7bbs:calculate-active-user')->hourly();
+
+        $schedule->command('pca7bbs:sync-user-actived-at')->dailyAt('00:00');
     }
 
     /**
