@@ -20,6 +20,7 @@
         <li class="nav-item {{ category_nav_active(2) }}"><a href="{{ route('categories.show', 2) }}" class="nav-link">教程</a></li>
         <li class="nav-item {{ category_nav_active(3) }}"><a href="{{ route('categories.show', 3) }}" class="nav-link">问答</a></li>
         <li class="nav-item {{ category_nav_active(4) }}"><a href="{{ route('categories.show', 4) }}" class="nav-link">公告</a></li>
+        <li class="nav-item"><a href="https://www.pca7.com" class="nav-link">动态圈</a></li>
       </ul>
 
       <!-- Right Side Of Navbar -->
