@@ -78,7 +78,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
         if (strlen($value) != 60) {
             $value = bcrypt($value);
         }
-        $this->attributes['password'] = bcrypt($value);
+        $this->attributes['password'] = $value;
     }
 
     public function setAvatarAttribute($path)
